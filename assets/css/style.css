@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ .navv{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(87, 85, 85);
+    
+    position: fixed;
+ }
+.navv a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: x-large;
+}
+.hero{
+    background-image: url('./../img/3.jpg');
+    height: calc(100vh - 80px);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    height: max-content;
+    width: max-content;
+    color: white;
+    background-color: #e0e6ebec;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 364px;
+    gap: 10px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcd3bd;
+    padding: 50px 0;
+    height: max-content;
+}
+.titles{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   padding-top: 50px;
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+#Specialization{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+#Specialization .l1{
+    background-color: #eee;
+    padding: 20px;
+    width: 300px;
+}
+h1{
+    font-size: 50px;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+#teacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcd3bd;
+    padding-top: 50px;
+   
+}
+#plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+
+}
+.Ptitles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.titles1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 50px;
+   padding-top: 20px;
+   background-color: #f5deb4;
+   width: 250px;
+   height: 300px;
+   border-radius: 15px;
+}
+.titles1 img{
+    height: 80px;
+}
+.l3{
+    border: 3px solid rgb(244, 247, 105);
+    background-color: #fde88b;
+    border-radius: 15px;
+    width: 200px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color:#fcd3bd ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input ,textarea{
+    width: 500px;
+    height: 42px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.sumbit{
+    width: 100px;
+}
+.nav1{
+   
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.nav1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.d-flex{
+    display: flex;
+}
+.justify-contant-between{
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
+}
+@media screen and (max-width:992px) {
+    input , textarea{
+      width: 300px;
+    }
+}
